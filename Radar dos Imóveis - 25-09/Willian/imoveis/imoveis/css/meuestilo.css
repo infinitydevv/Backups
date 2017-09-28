@@ -1,0 +1,61 @@
+.container  .img-responsive{
+position: relative;
+/*left:15%;*/
+margin:5px auto;
+
+}
+.form-control{
+	float:left;
+	max-width:600px;
+	margin-right:2px;
+}
+
+	
+}
+.select1 .form-control {
+	
+	margin-right:2px;
+	max-width:150px;
+	
+}
+
+.novo
+{
+	
+	margin-top:2px;
+}
+body {
+	background:#f2f2f2;
+  
+   padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-repeat: no-repeat, repeat;
+}
+.teste{
+	background:#cccccc;
+	padding:10px;
+	max-width:700px;
+	
+	
+}
+.teste1{
+	background:#cccccc;
+	padding:10px;
+	max-width:1100px;
+	
+	
+}
+.btn-primary{
+	background:#247bao;
+	border-color:white;
+}
+.btn-danger{
+	background:#D94545;
+	
+}
+.voltar{
+	background:red;
+
+	;
+	
+}

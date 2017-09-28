@@ -1,0 +1,95 @@
+ul.tabs {
+	list-style: none;
+	margin: 0px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-top: 5px;
+	float: left;
+	height: 30px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 50%;
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFA500, endColorstr=#FFC04D)";
+	/*Como sabemos o IE é sempre o problema dos desenvolvedores. Para utilizar um efeito Gradiente do Css3 no IE é necessário acrescentar esta linha*/
+	-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFA500,
+		endColorstr=#FFC04D );
+	/*IE 5.5 - 7  ------ Esta linha faz com que o efeito gradiente do Css3 funciona em versões antigas do IE*/
+	background: -moz-linear-gradient(top, #FFA500, #FFC04D) repeat-X;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFA500),
+		to(#FFC04D) ) repeat-X;
+}
+ 
+ul.tabs li {
+	float: left;
+	margin: 1px;
+	padding: 0px;
+	height: 30px;
+	line-height: 31px;
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+}
+ 
+ul.tabs li a {
+	text-decoration: none;
+	color: White;
+	font: bold;
+	display: block;
+	font-size: 1.2em;
+	font-family: Times New Roman;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	outline: none;
+}
+ 
+ul.tabs li.active a
+	/*Deixa a cor da fonte laranja assim que aba se torna ativa*/ {
+	color: #E68A00;
+}
+ 
+ul.tabs li a:hover {
+	background: #FFEBCC;
+	color: #E68A00;
+}
+ 
+html ul.tabs li.active {
+	color: #E68A00;
+	background: #fff;
+	/* a aba aparece com o fundo branco quando selecionada*/
+	border-bottom: 1px solid #fff;
+	/*--faz a aba ativa parecer conectada com seu conteudo--*/
+}
+ 
+html ul.tabs li.active a:hover
+	/*--Faz a lista ativa nao obedecer as propriedades do hover--*/ {
+	color: #E68A00;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+ 
+.tab_container {
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left;
+	width: 50%;
+	background: #fff;
+}
+ 
+.cont_tab {
+	padding: 25px;
+	font-size: 1.2em;
+	border-top-width: 0px;
+}
+ 
+fieldset {
+	width: 300px;
+}
+ 
+#btnInserir {
+	width: 100%
+}

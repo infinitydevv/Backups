@@ -1,0 +1,98 @@
+@media screen and (min-width: 1380px) {
+	.carousel-inner{
+   		width: 1160px;
+   		margin: auto;
+	}
+	.carousel{
+		background: #eeeeee;
+	}
+}
+
+
+@media screen and (min-width: 1918px) {
+
+}
+
+@media screen and (max-width: 1204px) and (min-width: 0px) {
+	.list-imoveis .box-imoveis {
+	    padding: 0 10px;
+	    min-width: 190px;
+	    width: 29%;
+	}
+}
+
+@media screen and (max-width: 1160px) and (min-width: 981px) {
+}
+
+@media screen and (max-width: 1160px) and (min-width: 0px) {
+	.carousel-inner{
+   		width: 1160px;
+   		margin: auto;
+	}
+}
+
+@media screen and (max-width: 780px) and (min-width: 0px) {
+	.list-imoveis .box-imoveis {
+	    padding: 0 10px;
+	    min-width: 190px;
+	    width: 45%;
+	}
+}
+
+@media screen and (max-width: 520px) and (min-width: 0px) {
+	.list-imoveis .box-imoveis {
+	    padding: 0 10px;
+	    min-width: 190px;
+	    width: 98%;
+	}
+}
+
+@media screen and (max-width: 950px) and (min-width: 601px) {
+
+}
+
+@media screen and (max-width: 660px) and (min-width: 0px) {
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 1px) {
+
+}
+
+@media screen and (max-width: 596px) and (min-width: 1px) {
+
+}
+
+@media screen and (max-width: 560px) and (min-width: 471px){
+
+}
+
+@media screen and (max-width: 520px) and (min-width: 471px) {
+
+}
+
+@media screen and (max-width: 471px) and (min-width: 0px){
+
+}
+
+@media screen and (max-width: 470px) and (min-width: 421px) {
+
+}
+
+@media screen and (max-width: 440px) and (min-width: 0px) {
+
+}
+
+@media screen and (max-width: 420px) and (min-width: 0px) {
+
+}
+
+@media screen and (max-width: 390px) and (min-width: 0px){
+
+}
+
+@media screen and (max-width: 360px) and (min-width: 0px){
+
+}
+
+

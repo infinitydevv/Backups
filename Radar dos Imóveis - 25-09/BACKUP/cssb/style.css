@@ -1,0 +1,79 @@
+body {
+   background: url(../img/bgg.jpg) repeat center center scroll;
+  /*#33CC66; 
+  
+  //#F7F7F7;)*/
+}
+
+#blocoLogin {
+	width:450px;
+	margin:35px auto 0 auto;
+	 background: url(../img/bgg.jpg) repeat center center scroll;
+}
+
+#falhaLogin {
+	text-align:center;
+	font-weight:bolder;
+	display:none;
+}
+
+#sucessoLogin {
+	text-align:center;
+	font-weight:bolder;
+	display:none;
+}
+table#tabela{
+	width:80%;
+	height:80%;
+/*border:2px solid red;
+background:white;*/
+}
+table#tabela tr{
+background:gray;
+}
+table#tabela .titulo{
+  border:1px solid gray;
+  text-align:center;
+  background:black;
+  color:white;
+  font-weight:bold;
+  width:8%;
+  height:auto;
+  font-size: 100%;
+}
+table#tabela .cont{
+  border:1px solid gray;
+  text-align:center;
+  background:gray;
+  color:white;
+  font-weight:bold;
+  width:8%;
+  height:auto;
+  font-size: 100%;
+}
+table#tabela .cont1{
+  border:1px solid gray;
+  text-align:center;
+  background:white;
+  color:black;
+  font-weight:bold;
+  width:8%;
+  height:auto;
+  font-size: 100%;
+}
+#numero{
+	font-size: 16pt;
+	color: red;
+	
+}
+#numero a:link, a:visited {
+	text-decoration: none;
+	color: #f00;
+	}
+#numero a:hover {
+	text-decoration: underline; 
+	color: #f00;
+	}
+#numero a:active {
+	text-decoration: none;
+	}

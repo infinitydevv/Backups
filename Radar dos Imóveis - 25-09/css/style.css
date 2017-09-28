@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body{
+  background-image: url("../fundo.png");
+  background-repeat:repeat;
+  margin: 0;"
+  font-family: "Dosis", sans-serif;
+}
+#blocoLogin {
+	width:450px;
+	margin:35px auto 0 auto;
+	 /*background: url(../img/ll.jpg) repeat center center scroll;*/
+}
+
+#falhaLogin {
+	text-align:center;
+	font-weight:bolder;
+	display:none;
+}
+
+#sucessoLogin {
+	text-align:center;
+	font-weight:bolder;
+	display:none;
+}
+
+#box{
+	width:400px;
+	height:400px;
+	z-index:-1;
+	background-color:gray;
+
+}
+table#tabela{
+	width:100%;
+	height:100%;
+
+/*border:2px solid red;
+    background:black;*/
+}
+table#tabela tr{
+background:black;
+}
+table#tabela .titulo{
+  border:1px solid gray;
+  text-align:center;
+  background:black;
+  color:white;
+  font-weight:bold;
+  width:8%;
+  height:auto;
+  font-size: 100%;
+}
+table#tabela .cont{
+  border:1px solid gray;
+  text-align:center;
+  background:gray;
+  color:white;
+  font-weight:bold;
+  width:8%;
+  height:auto;
+  font-size: 100%;
+}
+table#tabela .cont1{
+  border:1px solid gray;
+  text-align:center;
+  background:white;
+  color:black;
+  font-weight:bold;
+  width:8%;
+  height:auto;
+  font-size: 100%;
+}
+.container p.cons{
+	border: 1px solid black;
+	padding-left:50px;
+	padding-top:10px;
+	margin-left:350px;
+	width:600px;
+	font-size:15pt;
+	text-align:left;
+	background-color:#EEEED1;
+
+}
+
+
+
+.aa{
+
+}
+#adc{
+  background-color: #ee6e06;
+  color: #ee6e06;
+}
+#lala{
+  background-color: rgba(242, 242, 242, 0.5);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+#sc{
+  margin-top: 50px;
+}
+
+#txtDest{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+.txtLaranja{
+  color: #ee6e06;
+  border: 5px rgba(0, 0, 0, 0.5);
+}
+.txtLaranja1{
+  color: #ee6e06;
+  cursor: pointer;
+}
+
+/*#numero{
+	font-size: 16pt;
+	color: red;
+	text-align:left;
+}
+#numero a:link, a:visited {
+	text-decoration: none;
+	color: #f00;
+	}
+#numero a:hover {
+	text-decoration: underline;
+	color: #f00;
+	}
+#numero a:active {
+	text-decoration: none;
+	}
+	*/
+
+.abc, .navbar-laranja{
+  background-color: #ff9947;
+}
+.destaq{
+  text-align: center;
+}
+#zzy{
+  background-color: #fff;
+}
+@media(min-width: 768px){
+  #lala{
+    background-color: rgba(242, 242, 242, 0.0);
+    box-shadow: 0px 0px 0px;
+  }
+  .shide{
+    display: none;
+  }
+  .sshow{
+    display: inline;
+  }
+  .aa{
+    margin-top: 30px;
+  }
+  #sc{
+    margin-bottom: 10px;
+  }
+
+}
+
+@media(max-width: 767px){
+  .shide{
+    display: inline;
+  }
+  .sshow{
+    display: none;
+  }
+}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+html, body{
+  font-family: 'Ubuntu Condensed', sans-serif!important;
+  background-image: url("../img/bg.png");
+  background-repeat:repeat;
+  margin: 0;
+}
+
+/*Destaque*/
+.cor-fundo{
+  background-color: #eeeeee!important;
+  height: 438px;
+}
+.img-imovel-pesquisa{
+  height: 200px!important;
+}
+.texto-laranja{
+  color: #ee6e06;
+  border: 5px rgba(0, 0, 0, 0.5);
+}
+.cod-texto{
+  font-size: 12pt;
+  color:#000;
+}
+.cod-texto h4{
+  font-size: 12pt;
+}
+.valor{
+  color: #ee6e06;
+}
+/*FIM Destaque*/
+
+
+#destaqueSem{
+  margin-top: 50px;
+}
+#services{
+  margin-top: 50px;
+}
+#texto-about li{
+  font-size: 20px;
+}
+#texto-about p, h3 li{
+  text-align: justify;
+  text-indent: 20px;
+}
+#texto-about h3{
+   text-align: justify;
+  text-indent: 20px;
+}
+.btn-fixado{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 1;
+}
+.btn-link{
+  text-decoration: none!important;
+}
+.wpp{
+  width: 30px; 
+  height:30px; 
+}
+#row-pesquisa-logo{
+  background-color: rgba(242, 242, 242, 0.5);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+#container-pesquisa-logo{
+  margin-top: 50px;
+  font-size: 12pt;
+}
+.about{
+  margin-bottom: 0px!important;
+  padding-bottom: 0px!important;
+  box-shadow: 0px 0px 5px rgba(0,0,0, .3);
+
+}
+.texto-laranja{
+  color: #ee6e06;
+  border: 5px rgba(0, 0, 0, 0.5);
+}
+.font-laranja-click{
+  color: #ee6e06;
+  cursor: pointer;
+}
+.destaq{
+  text-align: center;
+}
+#section-about{
+  background-color: #fff;
+  margin-bottom: 0px!important;
+  padding-bottom: 0px!important;
+}
+.servicos p{
+  font-size: 18px;
+}
+.colunas-servicos{
+  padding: 40px 0px 40px 0px;
+}
+.colunas-servicos:hover{
+  background-color: #f7f7f7;
+  transition: 0.3s;
+}
+.img-logo-radar{
+    margin-top: 70px;
+  }
+.coluna-pesquisa-logo{
+	margin-bottom: 30px!important;
+}
+@keyframes gira {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+.radar-gira{
+   animation: gira 8s linear infinite;   
+}
+
+@media(min-width: 320px) and (max-width: 412){
+  .btn-fixado{
+    bottom: 300px;
+  }
+}
+@media(min-width: 1200px){
+.radar-letras{
+  z-index: 1;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  width: 250px;
+  height: 250px;
+}
+.radar-linhas{
+  width: 250px;
+  height: 250px;
+}
+.img-logo-radar{
+    margin-top: 60px;
+  }
+}
+@media(min-width: 992px) and (max-width: 1199px){
+  .radar-letras{
+    z-index: 1;
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    width: 200px;
+    height: 200px;
+  }
+  .radar-linhas{
+    width: 250px;
+    height: 250px;
+  }
+  .img-logo-radar{
+    margin-top: 60px;
+  }
+  
+}
+@media(min-width: 992px){
+ .col-pesquisar{
+    height: 336px;
+  }
+  .col-pesquisar{
+    background-color: #eeeeee;
+    border: 1px solid #dcdcdc;
+    margin: 20px 20px 0px 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  }
+}
+@media(max-width: 991px){
+  .col-pesquisar{
+    height: 336px;
+  }
+}
+@media(min-width: 768px){
+  #row-pesquisa-logo{
+    background-color: rgba(242, 242, 242, 0.0);
+    box-shadow: 0px 0px 0px;
+  }
+  .section-hide{
+    display: none;
+  }
+  .section-show{
+    display: inline;
+  }
+  .img-radar{
+    margin-top: 30px;
+  }
+  #container-pesquisa-logo{
+    margin-bottom: 50px;
+  }
+}
+@media(min-width: 796px) and (max-width: 991px){
+  .col-pesquisar{
+    background-color: #eeeeee;
+    border: 1px solid #dcdcdc;
+    margin: 20px 10px 0px 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  }
+  .radar-letras{
+    z-index: 1;
+    position: absolute;
+    top: 6px;
+    left: 19px;
+    width: 150px;
+    height: 150px;
+  }
+  .radar-linhas{
+    width: 250px;
+    height: 250px;
+  }
+}
+@media(min-width: 768px) and (max-width: 795px){
+  .col-pesquisar{
+    background-color: #eeeeee;
+    border: 1px solid #dcdcdc;
+    margin: 20px 10px 0px 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  }
+  .radar-letras{
+    z-index: 1;
+    position: absolute;
+    top: 6px;
+    left: 19px;
+    width: 150px;
+    height: 150px;
+  }
+  .radar-linhas{
+    width: 250px;
+    height: 250px;
+  }
+
+}
+@media(max-width: 767px){
+  .section-hide{
+    display: inline;
+  }
+  .section-show{
+    display: none;
+  }
+}

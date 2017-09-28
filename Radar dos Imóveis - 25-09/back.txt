@@ -1,0 +1,52 @@
+/*$foto1 = $_POST['foto1'];*/
+	$arq_name1 = $_FILES['foto1']['name']; //O nome do ficheiro
+    $arq_size1 = $_FILES['foto1']['size']; //O tamanho do ficheiro
+    $arq_tmp1 = $_FILES['foto1']['tmp_name']; //O nome temporário do arquivo
+    $arq1_name1 = "apto/".$arq_name;
+	
+	if(!file_exists($pasta_dir)){
+
+		mkdir($pasta_dir);
+
+	}
+
+	$arquivo_nome1 = $pasta_dir . $arquivo["name"];
+	
+
+	// Faz o upload da imagem
+
+	move_uploaded_file($arquivo["tmp_name"],$foto);
+	
+	/*$foto2 = $_POST['foto2'];*/
+	$arq_name2 = $_FILES['foto2']['name']; //O nome do ficheiro
+    $arq_size2 = $_FILES['foto2']['size']; //O tamanho do ficheiro
+    $arq_tmp2 = $_FILES['foto2']['tmp_name']; //O nome temporário do arquivo
+    $arq1_name2 = "apto/".$arq_name;
+	
+	if(!file_exists($pasta_dir)){
+
+		mkdir($pasta_dir);
+
+	}
+
+	$arquivo_nome2 = $pasta_dir . $arquivo2["name"];
+	
+
+	// Faz o upload da imagem
+
+	move_uploaded_file($arquivo2["tmp_name"],$foto);
+	
+	
+	
+	elseif(empty($foto1)){
+		echo "<script>alert('Preencha o campo foto 1 para se cadastrar.'); history.back();</script>";
+	}elseif(empty($foto2)){
+		echo "<script>alert('Preencha o campo foto 2 para se cadastrar.'); history.back();</script>";
+	}elseif(empty($foto3)){
+		echo "<script>alert('Preencha o campo foto 3 para se cadastrar.'); history.back();</script>";
+	}elseif(empty($foto4)){
+		echo "<script>alert('Preencha o campo foto 4 para se cadastrar.'); history.back();</script>";
+	}elseif(empty($foto5)){
+		echo "<script>alert('Preencha o campo foto 5 para se cadastrar.'); history.back();</script>";
+	}
+	

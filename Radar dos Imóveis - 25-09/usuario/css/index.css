@@ -1,0 +1,44 @@
+.container{
+	margin-top: 10px; 	
+}
+form{
+	margin-bottom: 20px;
+}
+.text-laranja{
+	color: #ee6e06!important;
+}
+.cabe{
+	background: #f5f5f5;
+	margin-top: 60px!important;
+	border: 0.5px #dcdcdc solid;
+	
+}
+table{
+	color: #c17436!important;
+}
+
+@media(max-width: 767px) and (min-width: 100px){
+	.show{
+		display: none!important;
+	}
+	.hide{
+		display: block!important;
+	}
+	.div-mar{
+		margin-bottom: 5px;
+	}
+	.show2{
+		display: none!important;
+	}
+}
+@media(min-width: 768px){
+	.hide{
+		display: none!important;
+	}
+	.show{
+		display: inline!important;
+	}
+	.show2{
+		display: block!important;
+	}
+}

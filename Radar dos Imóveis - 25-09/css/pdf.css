@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+html, body{
+  font-family: 'Ubuntu Condensed', sans-serif!important;
+}
+.ulla1{
+	position: relative;
+	top: -200px;
+	left: 140px;
+}
+.ulla{
+	position: relative;
+	top: -345px;
+	left: 340px;
+}
+ul{
+	list-style: none;
+}
+.uls{
+	position: relative;
+	left: 90px;
+}
+.a{
+	position: relative;
+	left: 80px;
+}
