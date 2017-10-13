@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+html, body{
+  font-family: 'Ubuntu Condensed', sans-serif!important;
+  background-image: url(../fundo.png);
+}
+.cor-fundo{
+	background-color: #eeeeee!important;
+	height: 438px;
+}
+.img-imovel-pesquisa{
+	height: 200px!important;
+}
+.texto-laranja{
+  color: #ee6e06;
+  border: 5px rgba(0, 0, 0, 0.5);
+}
+.cod-texto{
+	font-size: 12pt;
+	color:#000;
+}
+.cod-texto h4{
+  font-size: 12pt;
+}
+.valor{
+  color: #ee6e06;
+}
+.wpp{
+	width: 40px;
+	height: 40px;
+}
+.btn-link{
+  text-decoration: none!important;
+}
+.tipoimovel-pesquisa{
+	font-size: 14pt;
+}
+.btn-fixado{
+  position: fixed;
+  bottom:20px;
+  right: 10px;
+  z-index: 1;
+}
+@media(min-width: 768px){
+  .section-hide{
+    display: none;
+  }
+  .section-show{
+    display: inline;
+  }
+}
+@media(max-width: 767px){
+  .section-hide{
+    display: inline;
+  }
+  .section-show{
+    display: none;
+  }
+}

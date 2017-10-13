@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+html, body{
+  font-family: 'Ubuntu Condensed', sans-serif!important;
+  background-image: url("../img/bg.png");
+  background-repeat:repeat;
+  margin: 0;
+}
+
+.navbar-laranja{
+  font-size: 18px;
+}
+.wpp-fixx{
+	width: 40px;
+	height: 40px;
+}
+.txtLaranja{
+  color: #ee6e06;
+  border: 5px rgba(0, 0, 0, 0.5);
+}
+.under{
+  transition: 0.3s background-color;
+}
+.under:hover{
+  background-color: #c17436 !important;
+}
+.under1{
+  transition: 0.3s background-color;
+}
+.under1:hover{
+  background-color: #515151 !important;
+}
+.le-le{
+  font-weight: bold;
+  color: #ee6e06 !important;
+}
+.dropdown-cli{
+  font-size: 14pt;
+  margin-top: 5px;
+}
+#menu-navegacao a:hover,#menu-navegacao a:action{
+  color:#000!imporant;
+  background-color: #c17436 !important;
+}
+@media(min-width: 796px) and (max-width: 991px){
+  #menu-navegacao{
+    font-size: 12pt;
+	}
+}
+@media(min-width: 768px) and (max-width: 795px){
+  #menu-navegacao{
+    font-size: 10pt;
+  }
+}
