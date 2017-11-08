@@ -1,0 +1,91 @@
+body{
+	background-image: url('../img/back.jpg')!important;
+}
+.div-c{
+	margin-top: 50px;
+	width: 100%;
+}
+.footer{
+	background-color: #fff!important;
+	padding: 20px 0px;
+}
+.amarelo{
+	padding-top: 10px;
+	background-color: #ffe101!important;
+}
+.div-c a{
+	color: #ffe101!important;
+	text-decoration: none;
+	transition: 0.5s color;
+}
+.div-c a:hover{
+	color: #f9f9f9!important;
+}
+h1{
+	font-size: 45pt;
+}
+h2{
+	font-size: 35pt;
+}
+p{
+	text-align: justify;
+	text-indent: 30px;
+	text-shadow: 1px 0px rgba(0,0,0,.5);
+}
+.jumbotron{
+	background: #343a40!important;
+	margin-bottom: 0px!important;
+}
+#titu{
+	color: #ffe101!important;
+}
+#contato{
+	color:#ffe101!important;
+	background-image: url('../img/back4.jpg') ;
+	padding: 90px 0px;
+	width: 100%;
+}
+#empresa{
+	color:#343a40!important;
+	background-color: #ffe101!important;
+}
+#inst{
+	color:#343a40!important;
+	background-color: #ffe101!important;
+}
+#voce{
+	color:#ffe101!important;
+	background-image: url('../img/back.jpg');
+	padding: 90px 0px;
+	width: 100%;
+}
+.desk a{
+	color: #ffe101!important;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: 0.5s all;
+	padding: 25px;
+}
+.desk a:hover{
+	border-bottom: 2px solid #ffe101;
+}
+@media(max-width: 575px){
+	.mobile{
+		display: inline;
+	}
+	.desk{
+		display: none;
+	}|
+}
+@media(min-width: 576px){
+	.mobile{
+		display: none;
+	}
+	.desk ul{
+		text-align: center;
+	}
+	.desk{
+		display: block;
+		text-align: center;
+
+	}
+}

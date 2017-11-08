@@ -1,0 +1,13 @@
+body{
+	background-color: #212529!important;
+	color: #fff!important;
+	min-height: 100vh;
+}
+#col-lateral{
+	background-color: #ffe101!important;
+	color: #212529!important;
+	min-height: 100vh;
+}
+p{
+	font-size: 10pt;
+}
