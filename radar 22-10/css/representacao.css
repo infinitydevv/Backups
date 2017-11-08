@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+html{
+  font-family: 'Ubuntu Condensed', sans-serif!important;
+  background-image: url("../img/bg.png");
+  background-repeat:repeat;
+  margin: 0;
+}
+
+.principal{
+	margin-top: 100px;
+  margin-bottom: 60px;
+}
+.btn-fixado{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 1;
+}
+.wpp{
+  width: 30px; 
+  height:30px; 
+}
+.hh1{
+	color: #c95b02;
+}
+.hhh1{
+  color: #c95b02;
+  font-size: 20px;
+}
+.texto-laranja{
+  color: #ee6e06;
+  border: 5px rgba(0, 0, 0, 0.5);
+}
+p{
+	font-size: 18px;
+  text-indent: 10px;
+  text-align: justify;
+}

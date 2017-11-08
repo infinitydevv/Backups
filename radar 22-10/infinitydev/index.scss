@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+	font-family: 'Ubuntu Condensed', sans-serif!important;
+	
+}
+footer{
+	background: #161616!important; 
+	color: #fff;
+}
+.navbar-nav li a {
+	color:#17233d!important;
+	font-weight: bold!important;
+}
+
+.container-fluid{
+	background: url(img/backq1.png)!important; 
+    background-repeat: no-repeat!important;
+    background-size: 100% auto!important;
+    color: #fff!important;
+    padding: 132px 0px 132px 0px;
+    border-radius: 0px!important;
+    margin-top: 55px;
+    h1{
+    	text-shadow: 2px 2px 0px rgba(0,0,0,.4);
+    }
+}
+.navbar{
+	a{
+		color: #fff!important;
+		span{
+			font-family: 'Lobster', sans-serif!important;
+			color: #17233d;
+		}
+	}
+}
+.servicos{
+	background-color: #efefef;
+	padding: 80px 0px 80px 0px;
+	h2{
+		margin-bottom: 60px;
+	}
+	.row{
+		.col-12,.col-sm-6{
+			img{
+				padding: 50px 0px 50px 0px;
+			}
+			.text-center{
+				p{
+					text-indent: 35px;
+				}
+			}
+		}
+	}
+}
+@media(max-width: 767px){
+	.container-fluid{
+		padding: 62px 0px 62px 0px!important;
+	}
+}

@@ -1,0 +1,7 @@
+[02-Oct-2017 17:54:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/radardosimoveisc/public_html/captador/action_cliente.php on line 88
+[05-Oct-2017 20:22:54 UTC] PHP Warning:  require(login/functions.php): failed to open stream: No such file or directory in /home/radardosimoveisc/public_html/captador/index.php on line 4
+[05-Oct-2017 20:22:54 UTC] PHP Warning:  require(login/functions.php): failed to open stream: No such file or directory in /home/radardosimoveisc/public_html/captador/index.php on line 4
+[05-Oct-2017 20:22:54 UTC] PHP Fatal error:  require(): Failed opening required 'login/functions.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/radardosimoveisc/public_html/captador/index.php on line 4
+[05-Oct-2017 20:23:30 UTC] PHP Warning:  require(login/functions.php): failed to open stream: No such file or directory in /home/radardosimoveisc/public_html/captador/index.php on line 4
+[05-Oct-2017 20:23:30 UTC] PHP Warning:  require(login/functions.php): failed to open stream: No such file or directory in /home/radardosimoveisc/public_html/captador/index.php on line 4
+[05-Oct-2017 20:23:30 UTC] PHP Fatal error:  require(): Failed opening required 'login/functions.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/radardosimoveisc/public_html/captador/index.php on line 4

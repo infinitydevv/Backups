@@ -1,0 +1,9 @@
+[05-Oct-2017 17:34:01 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/radardosimoveisc/public_html/login/logar-cliente.php on line 51
+[05-Oct-2017 17:34:48 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/radardosimoveisc/public_html/login/logar-cliente.php on line 51
+[06-Oct-2017 18:28:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
+[06-Oct-2017 18:30:28 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
+[06-Oct-2017 18:30:32 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
+[06-Oct-2017 18:30:57 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
+[06-Oct-2017 18:30:57 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
+[06-Oct-2017 18:30:58 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
+[06-Oct-2017 18:30:58 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/radardosimoveisc/public_html/conexoes/conexao.php on line 145
