@@ -1,0 +1,14 @@
+body{
+	background-image: url("../img/back.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #ffe101!important;
+}
+
+.bloco{
+	margin-top: 50px;
+	border-left: 5px solid #ffe101!important;
+	padding: 10px 10px;
+	max-width: 400px;
+	background: rgba(0,0,0,.8);
+}

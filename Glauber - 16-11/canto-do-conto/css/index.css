@@ -1,0 +1,27 @@
+body{
+	background-color: #212529!important;
+	color: #fff!important;
+}
+#col-lateral{
+	background-color: #ffe101!important;
+	color: #212529!important;
+}
+#col-central{
+	height: 100%;
+}
+p{
+	font-size: 10pt;
+}
+.marg-div{
+	margin-bottom: 15px;
+}
+#hamburg span{
+	position: relative;
+	display: block;
+	padding: 3px 16px;
+	background: #fff;
+	margin: 5px;
+}
+form{
+	margin-bottom: 10px;
+}

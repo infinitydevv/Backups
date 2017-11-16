@@ -1,0 +1,125 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+body{
+	background-color: #ffe101!important;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	 min-height: 1000px;
+
+}
+.container-fluid{
+	background-color: #ffe101!important;
+}
+h1{
+	color: #fff!important;
+	margin-bottom: 0px!important;
+}
+#col-3-menu{
+	padding-top: 30px;
+	background-color: #343a40 ;
+	border-right: 1px solid #343a40;
+	box-shadow: 1px 1px 1px #343a40;
+	height: 100%;
+}
+.nav-item{
+	background-color: #343a40!important;
+	transition: 0.5s all;
+}
+.as{
+	
+	background-color: #474747;
+	transition: 0.5s all;
+}
+
+.as:hover{
+	background-color: #303030;
+}
+.avatar{
+	max-width: 318px;
+	max-height: 300px;
+}
+.l{
+	margin-bottom: 10px;
+}
+.pp{
+	font-size: 10pt!important;
+}
+#nome{
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+.nav-link{
+	font-size: 16pt!important;
+	color: #ffe101!important;
+	border-bottom: 2px solid #343a40;
+	transition: 0.5s border-bottom;
+}
+.nav-link:hover{
+	color: #ffe101;
+	border-bottom: 2px solid #ffe101;
+	font-size: 16pt!important;
+}
+#logo{
+	padding: 0px;
+}
+.divs{
+	border: 1px solid #e2e2e2;
+	background-color: #f8f8f8;
+	color: #474747!important; 
+	padding: 50px!important;
+	margin-top: 30px;
+	box-shadow: 1px 1px 1px #dcdcdc;
+}
+
+#contato{
+	color: #474747!important; 
+	padding: 50px!important;
+	margin-top: 30px;
+}
+#col-6-barra{
+	border-right: 1px solid #343a40; 
+}
+h1, h2, h3, h4, h5{
+	text-shadow: 1px 0px rgba(0,0,0,0.6);
+}
+h3{
+	margin: 20px 30px 30px 30px;
+}
+p{
+	text-align: justify;
+	text-indent: 45px;
+	font-size: 13pt;
+	line-height: 1.7;
+}
+#fb{
+	margin-bottom: 50px;
+}
+.hrs{
+	background-color: #ffe101;
+}
+@media(max-width: 575px){
+	#col-6-barra{
+		border-right: 0px solid #dcdcdc; 
+		border-bottom: 1px solid #343a40;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+	p{
+		font-size: 10pt!important;
+	}
+}
+@media(max-width: 330px){
+	p{
+		font-size: 8pt!important;
+	}
+}
+@media(max-width: 768px){
+	#col-3-menu{
+		display: none;
+	}
+}
+@media(min-width: 769px){
+	.navbar{
+		display: none;
+	}
+}

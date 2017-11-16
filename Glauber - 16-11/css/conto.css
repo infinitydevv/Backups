@@ -1,0 +1,25 @@
+.conto{
+	margin: 20px 0px;
+	border: 1px solid #c8c8c8;
+	background-color: #dcdcdc;
+	box-shadow: 1px 1px 15px #8c8c8c;
+}
+.prlx{
+	padding: 50px 0px;
+}
+.prlx h1{
+	color: #ffe101!important;
+	text-shadow: 1px 2px 1px #474747;
+	text-align: center;
+}
+.prlx p{
+	color: #ffe101!important;
+	text-shadow: 1px 1px 1px #474747;
+	text-align: center;
+}
+.conteudo{
+	padding: 50px 50px;
+}
+body{
+	background-color: #ffe101!important;
+}

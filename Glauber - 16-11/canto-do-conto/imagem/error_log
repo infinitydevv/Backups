@@ -1,0 +1,2 @@
+[10-Nov-2017 19:12:42 UTC] PHP Warning:  file_put_contents(../fotos/.): failed to open stream: Is a directory in /home/profglauber/public_html/canto-do-conto/imagem/upload.php on line 14
+[10-Nov-2017 19:13:57 UTC] PHP Warning:  file_put_contents(../fotos/.): failed to open stream: Is a directory in /home/profglauber/public_html/canto-do-conto/imagem/upload.php on line 14
