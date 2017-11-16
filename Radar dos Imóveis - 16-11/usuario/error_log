@@ -1,0 +1,4 @@
+[02-Oct-2017 17:39:08 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/radardosimoveisc/public_html/usuario/action_cliente.php on line 107
+[06-Oct-2017 22:11:18 UTC] PHP Warning:  require(login/functions.php): failed to open stream: No such file or directory in /home/radardosimoveisc/public_html/usuario/index.php on line 4
+[06-Oct-2017 22:11:18 UTC] PHP Warning:  require(login/functions.php): failed to open stream: No such file or directory in /home/radardosimoveisc/public_html/usuario/index.php on line 4
+[06-Oct-2017 22:11:18 UTC] PHP Fatal error:  require(): Failed opening required 'login/functions.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/radardosimoveisc/public_html/usuario/index.php on line 4
