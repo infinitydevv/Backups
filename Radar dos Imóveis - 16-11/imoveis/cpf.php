@@ -41,9 +41,9 @@
 			}
 
 			if($primeiro_digito == $cpfReal[9] && $segundo_digito == $cpfReal[10]){
-				return "CPF válido";
+				return true;
 			}else{
-				return "Errado";
+				return false;
 			}
 		}
 	}
