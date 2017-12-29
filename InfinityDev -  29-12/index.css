@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+body {
+  font-family: "Ubuntu Condensed", sans-serif !important; }
+
+footer {
+  border-top: 14px solid #17233d;
+  background: #fff !important;
+  color: #2c477c; 
+  padding: 30px 0px;
+}
+
+footer h5{
+  font-size: 12pt;
+}
+
+.navbar-nav li a {
+  color: #17233d !important;
+  font-weight: bold !important; }
+
+.container-fluid {
+  background: url(img/backq1.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  color: #fff !important;
+  padding: 132px 0px 132px 0px;
+  border-radius: 0px !important;
+  margin-top: 55px; }
+  .container-fluid h1 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4); }
+
+#marg{
+  border-left: 1px solid #dcdcdc
+  ;
+}
+
+.navbar a {
+  color: #fff !important; }
+  .navbar a span {
+    font-family: "Lobster", sans-serif !important;
+    color: #17233d; }
+
+.divs {
+  background-color: #efefef;
+  padding: 80px 0px 80px 0px; 
+}
+  .divs h2 {
+    margin-bottom: 60px; 
+  }
+  .divs .row .col-12 img, .divs .row .col-sm-6 img {
+    padding: 50px 0px 50px 0px; 
+  }
+  .divs .row .col-12 .text-center p, .divs .row .col-sm-6 .text-center p {
+    text-indent: 35px; 
+  }
+
+.btn-sub{
+  margin-top: 17px;
+}
+#sobre{
+  background: #161616 !important;
+  color: #4267b2 !important;
+
+}
+#sobre p{
+  text-indent: 35px;
+  text-align: justify;
+  font-size: 14pt!important;
+}
+#contato{
+  background-color: #4267b2!important;
+  color: #fff!important;
+}
+.texto{
+  background-color: #2c477c!important;
+  color: #fff!important;
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    padding: 62px 0px 62px 0px !important; } }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,14 @@
+{
+    "name": "vendor/pagseguro",
+    "authors": [
+        {
+            "name": "infinitydevv",
+            "email": "infinitydevcontato@gmail.com"
+        }
+    ],
+
+    "require": {
+       "guzzlehttp/guzzle": "*"
+    }
+
+}

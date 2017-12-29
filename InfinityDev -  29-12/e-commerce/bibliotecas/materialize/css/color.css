@@ -1,0 +1,87 @@
+  /* label color */
+   .input-field label {
+     color: #b71c1c !important;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #b71c1c !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #212121  !important;
+     box-shadow: 0 1px 0 0 #212121  !important;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #1b5e20  !important;
+     box-shadow: 0 1px 0 0 #1b5e20  !important;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #b71c1c !important;
+     box-shadow: 0 1px 0 0 #b71c1c !important;
+   }
+
+
+   .input-field input[type=email]:focus + label {
+     color: #b71c1c !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #212121  !important;
+     box-shadow: 0 1px 0 0 #212121  !important;
+   }
+   /* valid color */
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #1b5e20  !important;
+     box-shadow: 0 1px 0 0 #1b5e20  !important;
+   }
+   /* invalid color */
+   .input-field input[type=email].invalid {
+     border-bottom: 1px solid #b71c1c !important;
+     box-shadow: 0 1px 0 0 #b71c1c !important;
+   }
+
+
+   .input-field input[type=password]:focus + label {
+     color: #b71c1c !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=password]:focus {
+     border-bottom: 1px solid #212121  !important;
+     box-shadow: 0 1px 0 0 #212121  !important;
+   }
+   /* valid color */
+   .input-field input[type=password].valid {
+     border-bottom: 1px solid #1b5e20  !important;
+     box-shadow: 0 1px 0 0 #1b5e20  !important;
+   }
+   /* invalid color */
+   .input-field input[type=password].invalid {
+     border-bottom: 1px solid #b71c1c !important;
+     box-shadow: 0 1px 0 0 #b71c1c !important;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #b71c1c !important;
+   }
+
+   .input-field select {
+     color: #b71c1c !important;
+   }
+   .input-field select, option{
+     color: #b71c1c !important;
+   }
+
+  .input-field textarea:focus{
+    border-bottom: 1px solid #212121 !important;
+    box-shadow: 0 1px 0 0 #212121 !important;
+  }
+  .input-field textarea.valid{
+    border-bottom: 1px solid #1b5e20 !important;
+    box-shadow: 0 1px 0 0 #1b5e20 !important;
+  }
+  .input-field textarea.invalid{
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #b71c1c !important;
+  }

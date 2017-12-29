@@ -1,0 +1,6 @@
+.divOver{
+	transition: 0.5s all;
+}
+.divOver:hover{
+	background-color: #bdbdbd!important;
+}
